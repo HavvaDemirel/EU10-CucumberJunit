@@ -5,28 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a8ae63a-64d1-4046-a19d-978a2a1a991e" name="Changes" comment="day 15,16,17,18 are added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/WebTablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/WikiPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/DataTablesStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/WikiStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/webTable_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DataTables.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/wikiSeearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/DropdownsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/OrderPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/ViewAllOrdersPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/WebTableLoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/WikiSearchPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/FailedTestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/DataTable_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Order_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/WebTable_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Wiki_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/webtableOrder.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/GoogleSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/GoogleSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/GoogleStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU9-CucumberJunit/src/test/resources/features",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EU9-CucumberJunit/src/test/resources/features&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9-CucumberJunit\src\test\resources\features" />
@@ -64,15 +70,16 @@
       <recent name="cydeo.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: googleSearch">
-    <configuration name="Feature: googleSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="Scenario: Wikipedia Search Functionality Image Header Verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/wikiSeearch.feature" />
       <option name="GLUE" value="cydeo.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="EU10-CucumberJunit" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: googleSearch" />
+      <option name="NAME_FILTER" value="^Wikipedia Search Functionality Image Header Verification$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Wikipedia Search Functionality Image Header Verification$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Wikipedia Search Functionality Image Header Verification" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -84,14 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Wikipedia Search Functionality Title Verification - search value... - Example n°1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/wikiSeearch.feature:32" />
       <option name="GLUE" value="cydeo.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="EU10-CucumberJunit" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <option name="NAME_FILTER" value="^Wikipedia Search Functionality Title Verification$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Wikipedia Search Functionality Title Verification$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Wikipedia Search Functionality Title Verification - search value... - Example n°1" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -103,15 +111,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Search functionality result title verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Wikipedia Search Functionality Title Verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/wikiSeearch.feature" />
       <option name="GLUE" value="cydeo.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="EU10-CucumberJunit" />
-      <option name="NAME_FILTER" value="^Search functionality result title verification$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search functionality result title verification$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Search functionality result title verification" />
+      <option name="NAME_FILTER" value="^Wikipedia Search Functionality Title Verification$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Wikipedia Search Functionality Title Verification$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Wikipedia Search Functionality Title Verification" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: positive login scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" />
+      <option name="GLUE" value="cydeo.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="EU10-CucumberJunit" />
+      <option name="NAME_FILTER" value="^positive login scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^positive login scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: positive login scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -138,41 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU10-CucumberJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cydeo.runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cydeo.runners" />
-      <option name="MAIN_CLASS_NAME" value="cydeo.runners.FailedTestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="EU10-CucumberJunit" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="EU10-CucumberJunit" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: googleSearch" />
-        <item itemvalue="Cucumber Java.Feature: login" />
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="JUnit.FailedTestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Search functionality result title verification" />
+        <item itemvalue="Cucumber Java.Scenario: positive login scenario" />
+        <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Image Header Verification" />
+        <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Title Verification" />
+        <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Title Verification - search value... - Example n°1" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +195,20 @@
       <workItem from="1665240535542" duration="12180000" />
       <workItem from="1665322043815" duration="5950000" />
       <workItem from="1675624428539" duration="905000" />
+      <workItem from="1676201687609" duration="208000" />
+      <workItem from="1676209837389" duration="7647000" />
+      <workItem from="1676316051067" duration="1012000" />
+      <workItem from="1676563676884" duration="11000" />
+      <workItem from="1676567889814" duration="2569000" />
+      <workItem from="1676588286272" duration="649000" />
+      <workItem from="1676595095060" duration="19000" />
+      <workItem from="1676653844777" duration="573000" />
+      <workItem from="1676663224164" duration="1727000" />
+      <workItem from="1676734925239" duration="15000" />
+      <workItem from="1676759135547" duration="14973000" />
+      <workItem from="1676932800003" duration="619000" />
+      <workItem from="1676979764858" duration="291000" />
+      <workItem from="1676981007754" duration="6056000" />
     </task>
     <task id="LOCAL-00001" summary="pom updated">
       <created>1663401206670</created>

@@ -1,3 +1,4 @@
+@Regression
 Feature: Google search functionality
   Agile story: As a user, when I am on the Google search page
   I should be able to search whatever I want and see relevant information
@@ -5,6 +6,11 @@ Feature: Google search functionality
   Scenario: Search page title verification
     When user is on Google search page
     Then user should see title is Google
+
+
+
+
+#TC#1: Google Search Functionality Title Verification
 
   Scenario: Search functionality result title verification
     Given user is on Google search page
@@ -27,13 +33,13 @@ Feature: Google search functionality
     When user types "capital of <country>" and clicks enter
     Then User should see "<capital>" in the result
     Examples:
-    |country|capital|
-    |Turkey |Ankara |
-    |USA    |Washington DC|
-    |Ukraine|Kyiv         |
-    |Gemany |Berlin       |
-    |UK     |London       |
-    |Latvia |Riga         |
-    |Greece |Athens       |
+      | country | capital          |
+      | Turkey  | Ankara           |
+      | USA     | Washington, D.C. |
+      | Ukraine | Kyiv             |
+      | Germany | Berlin           |
+      | UK      | London           |
+      | Latvia  | Riga             |
+      | Greece  | Athens           |
 
 

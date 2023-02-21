@@ -23,5 +23,8 @@ public class GoogleSearchPage {
     public String getCapital(){
         return Driver.getDriver().findElement(By.xpath("//a[@class='FLP8od']")).getText();
     }
+    @FindBy(xpath = "//div[.='Accept all']")
+    public WebElement acceptCookies;
+
 
 }
