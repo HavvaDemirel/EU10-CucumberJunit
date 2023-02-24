@@ -1,16 +1,17 @@
 package cydeo.step_definitions;
 
-import cydeo.pages.WebTablePage;
+import cydeo.pages.WebTableLoginPage;
 import cydeo.utilities.BrowserUtils;
 import cydeo.utilities.ConfigurationReader;
 import cydeo.utilities.Driver;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+import java.util.Map;
+
 public class webTable_StepDefinitions {
-WebTablePage webTablePage = new WebTablePage();
+WebTableLoginPage webTablePage = new WebTableLoginPage();
 
     @Given("user is on login page of web table app")
     public void user_is_on_login_page_of_web_table_app() {
@@ -41,9 +42,11 @@ WebTablePage webTablePage = new WebTablePage();
     @Then("user should see url contains order")
     public void user_should_see_url_contains_order() {
         BrowserUtils.verifyURLContains("orders");
+        // Driver.getDriver().getCurrentUrl().contains("orders");
 
 
     }
+
 
     @When("user enter username {string} password {string} and logins")
     public void user_enter_username_password_and_logins(String string, String string2) {
@@ -58,6 +61,23 @@ WebTablePage webTablePage = new WebTablePage();
         webTablePage.login(string,string2);
 
     }
+
+    @When("user enters below credentials")
+    public void user_enters_below_credentials(Map<String,String>credentials) {
+        credentials.get("username");
+        credentials.get("password");
+    //this is the method we use login method--->  webTablePage.login(credentials.get("username"),credentials.get("password"));
+
+      webTablePage.inputUserNameBox.sendKeys(credentials.get("username"));
+      webTablePage.inputUserPasswordBox.sendKeys(credentials.get("password"));
+      webTablePage.loginButton.click();
+
+
+
+    }
+
+
+
 
 
 
