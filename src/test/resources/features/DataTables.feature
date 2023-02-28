@@ -30,7 +30,7 @@ Feature: Example of Cucumber data table implementation
       | November  |
       | December  |
 
-  @wip
+
   Scenario: User should be able to see all 30 days in days
   dropdown
     Given User is on the dropdowns page of practice tool
