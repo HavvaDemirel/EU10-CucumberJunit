@@ -4,34 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a8ae63a-64d1-4046-a19d-978a2a1a991e" name="Changes" comment="day 15,16,17,18 are added.">
-      <change afterPath="$PROJECT_DIR$/SampleData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VyTrackQA2Users.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/DropdownsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/Orders/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/Orders/OrderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/Orders/ViewAllOrdersPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/VyTrack/VyTrackDashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/VyTrack/VyTrackLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/FailedTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Order_stepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/VyTrack_loginStepDefination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/tests/ExelRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/tests/VyTrackLoginDDTTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/tests/WriteExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/webtableOrder.feature" afterDir="false" />
+    <list default="true" id="1a8ae63a-64d1-4046-a19d-978a2a1a991e" name="Changes" comment="latest">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/WebTablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/WebTableLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VyTrackQA2Users.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/VyTrackQA2Users.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/DataTablesStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/DataTablesStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/webTable_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/webTable_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DataTables.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DataTables.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/tests/VyTrackLoginDDTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/tests/VyTrackLoginDDTTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,23 +35,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/havse/IdeaProjects/EU10-CucumberJunit",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/havse/IdeaProjects/EU10-CucumberJunit&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\havse\IdeaProjects\EU10-CucumberJunit" />
@@ -88,6 +67,13 @@
       <recent name="cydeo.pages" />
       <recent name="cydeo.runners" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn cle" />
+      <command value="mvn clean test" />
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -105,22 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExelRead.read_from_excel_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU10-CucumberJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cydeo.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cydeo.tests" />
-      <option name="MAIN_CLASS_NAME" value="cydeo.tests.ExelRead" />
-      <option name="METHOD_NAME" value="read_from_excel_file" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU10-CucumberJunit" />
       <extension name="coverage">
@@ -131,6 +101,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="cydeo.runners" />
       <option name="MAIN_CLASS_NAME" value="cydeo.runners.FailedTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VyTrackLoginDDTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU10-CucumberJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cydeo.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cydeo.tests" />
+      <option name="MAIN_CLASS_NAME" value="cydeo.tests.VyTrackLoginDDTTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="JUnit.FailedTestRunner" />
-        <item itemvalue="JUnit.VyTrackLoginDDTTest.loginTDDTest" />
         <item itemvalue="JUnit.WriteExcel.excel_write" />
-        <item itemvalue="JUnit.ExelRead.read_from_excel_file" />
+        <item itemvalue="JUnit.VyTrackLoginDDTTest.loginTDDTest" />
+        <item itemvalue="JUnit.VyTrackLoginDDTTest" />
+        <item itemvalue="JUnit.FailedTestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +205,17 @@
       <workItem from="1677063459903" duration="841000" />
       <workItem from="1677104564406" duration="6328000" />
       <workItem from="1677176499676" duration="5830000" />
-      <workItem from="1677233814968" duration="19068000" />
+      <workItem from="1677233814968" duration="23138000" />
+      <workItem from="1677284045478" duration="31000" />
+      <workItem from="1677326359360" duration="1317000" />
+      <workItem from="1677340463691" duration="3000" />
+      <workItem from="1677356428562" duration="83000" />
+      <workItem from="1677356612252" duration="702000" />
+      <workItem from="1677369810961" duration="17000" />
+      <workItem from="1677437706623" duration="3596000" />
+      <workItem from="1677525886174" duration="116000" />
+      <workItem from="1677526011167" duration="20000" />
+      <workItem from="1677526047786" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="pom updated">
       <created>1663401206670</created>
@@ -257,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676991109908</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="latest">
+      <created>1677274687938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677274687938</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +280,7 @@
     <MESSAGE value="pom updated" />
     <MESSAGE value="some issues are fixed" />
     <MESSAGE value="day 15,16,17,18 are added." />
-    <option name="LAST_COMMIT_MESSAGE" value="day 15,16,17,18 are added." />
+    <MESSAGE value="latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest" />
   </component>
 </project>

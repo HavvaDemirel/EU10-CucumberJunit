@@ -76,16 +76,14 @@ public class VyTrackLoginDDTTest {
                 resultCell.setCellValue("FAILED");
             }
             dashboardPage.logout();
-            FileOutputStream out = new FileOutputStream(filePath);
-            workbook.write(out);
-
-            in.close();
-            out.close();
-            workbook.close();
-
 
         }
+        FileOutputStream out = new FileOutputStream(filePath);
+        workbook.write(out);
 
+        in.close();
+        out.close();
+        workbook.close();
 
     }
 }
