@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a8ae63a-64d1-4046-a19d-978a2a1a991e" name="Changes" comment="latest">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VyTrackQA2Users.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/VyTrackQA2Users.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/tests/VyTrackLoginDDTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/tests/VyTrackLoginDDTTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="1a8ae63a-64d1-4046-a19d-978a2a1a991e" name="Changes" comment="latest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,7 +209,7 @@
       <workItem from="1677437706623" duration="3596000" />
       <workItem from="1677525886174" duration="116000" />
       <workItem from="1677526011167" duration="20000" />
-      <workItem from="1677526047786" duration="309000" />
+      <workItem from="1677526047786" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="pom updated">
       <created>1663401206670</created>
@@ -259,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677274687938</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="latest">
+      <created>1677549506182</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677549506182</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
