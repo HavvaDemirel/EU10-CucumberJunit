@@ -1,3 +1,4 @@
+@smoke
 Feature: Wikipedia Search Functionality and Verification
 
   Scenario: Wikipedia Search Functionality Title Verification
